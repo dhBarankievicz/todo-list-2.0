@@ -53,6 +53,19 @@ botaoNovaTarefa.addEventListener("click", () => {
 })
 
 
+//Remover tarefa
+const deleteIcone = document.querySelectorAll(".delete");
+
+main.addEventListener("click", (e) => {
+    if(e.target.classList.contains("delete")) {
+        const tarefaSelecionada = e.target.closest(".tarefa");
+        tarefaSelecionada.remove()
+    }
+})
+
+
+
+
 
 
 
