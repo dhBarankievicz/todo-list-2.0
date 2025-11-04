@@ -60,7 +60,7 @@ Os usuários devem ser capazes de:
 ### 🔗 **Links**
 
 * 🌐 **Site publicado:**
-  👉 [Link do GitHub Pages ou local](#)
+  👉 [Link do GitHub Pages ou local](https://dhbarankievicz.github.io/todo-list-2.0/)
 
 * 💾 **Repositório no GitHub:**
   👉 [https://github.com/dhBarankievicz/landing-todo-list-2.0](https://github.com/dhBarankievicz/todo-list-2.0)
