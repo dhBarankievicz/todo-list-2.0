@@ -26,7 +26,6 @@ Perfeito! Seguindo exatamente o formato que você mostrou, aqui está o README d
   * [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
   * [🚀 Desenvolvimento Contínuo](#-desenvolvimento-contínuo)
 * [🙋‍♂️ Autor](#-autor)
-* [📝 Licença](#-licença)
 
 ---
 
