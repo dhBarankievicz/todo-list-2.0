@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+body {
+    background-color: #2a2a2a;
+    padding: 0 2%;
+}
+
+main {
+    color: white;
+    max-width: 756px;
+    padding: 16px 24px 55px 24px;
+    background-color: #191F28;
+    margin: 30vh auto;
+    border-radius: 12px;
+}
+
+h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+h1>img {
+    margin-left: 16px;
+}
+
+.inputs {
+    margin: 20px 0;
+    padding: 0 8px;
+}
+
+input[type="text"],
+input[type="button"] {
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    width: 550px;
+    padding: 9px 12px;
+    background-color: #343B47;
+    color: #696D75;
+
+}
+
+input[type="button"] {
+    margin-left: 16px;
+    padding: 9px 24px;
+    cursor: pointer;
+    background-color: #24395D;
+    color: white;
+}
+
+.tarefa {
+    display: flex;
+    padding: 13.5px 16px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    border-bottom: 2px solid #24395D;
+}
+
+.tarefa input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.tarefa .deleteEedit {
+    display: flex;
+    align-items: center;
+}
+
+.tarefa .delete {
+    background-color: #C31717;
+    color: white;
+    border-radius: 8px;
+    font-size: 12px;
+    height: 23px;
+    padding: 4px 8px;
+    margin-right: 8px;
+}
+
+.tarefa .deleteEedit .edit {
+    width: 26px;
+}
