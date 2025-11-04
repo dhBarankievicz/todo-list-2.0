@@ -49,11 +49,11 @@ Os usuários devem ser capazes de:
 
 #### 📱 Versão Mobile
 
-![Mobile](./img/mobile.jpg)  *(adicione sua própria captura de tela aqui)*
+![Mobile](./img/mobile.jpg)  
 
 #### 🖼️ Versão Desktop
 
-![Desktop](./img/desktop.jpg)  *(adicione sua própria captura de tela aqui)*
+![Desktop](./img/desktop.jpg) 
 
 ---
 
@@ -95,7 +95,7 @@ Durante o desenvolvimento deste projeto, pude aplicar e expandir conceitos funda
 Desenvolvido como prática do curso **Dev de Verdade – Manipulando o DOM(JS)**
 
 🔗 [GitHub](https://github.com/dhBarankievicz)
-🔗 [LinkedIn(https://linkedin.com/in/douglas-barankievicz-a42132358).
+🔗 [LinkedIn](https://linkedin.com/in/douglas-barankievicz-a42132358).
 
 ---
 
