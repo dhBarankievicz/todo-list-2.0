@@ -27,6 +27,7 @@ botaoNovaTarefa.addEventListener("click", () => {
         //Texto
         const texto = document.createElement("span");
         texto.textContent = novaTarefa;
+        texto.classList.add("tarefaCriada")
         checkEtarefa.appendChild(texto)
 
         //Div edit e delete
@@ -50,17 +51,58 @@ botaoNovaTarefa.addEventListener("click", () => {
         deleteEedit.appendChild(edit);
         edit.classList.add("edit")
     }
+    textoNovaTarefa.value = "";
+})
+
+//marcar concluido
+main.addEventListener("click", (e) => {
+    const tarefaFinalizada = e.target.closest(".tarefa");
+    const textoFinalizado = e.target.closest(".checkEtarefa")
+    if (e.target.type === "checkbox") {
+
+        if (e.target.checked) {
+            tarefaFinalizada.classList.add("concluida")
+            textoFinalizado.classList.add("concluida-linha")
+
+        } else {
+            tarefaFinalizada.classList.remove("concluida");
+            textoFinalizado.classList.remove("concluida-linha")
+
+        }
+    }
 })
 
 
 //Remover tarefa
-const deleteIcone = document.querySelectorAll(".delete");
-
 main.addEventListener("click", (e) => {
-    if(e.target.classList.contains("delete")) {
+    if (e.target.classList.contains("delete")) {
         const tarefaSelecionada = e.target.closest(".tarefa");
         tarefaSelecionada.remove()
     }
+})
+
+//Editar tarefa
+main.addEventListener("click", (e) => {
+    if (e.target.classList.contains("edit")) {
+        const tarefaSelecionada = e.target.closest(".tarefa").querySelector(".checkEtarefa");
+        tarefaSelecionada.lastElementChild.remove();
+        const texto = document.createElement("input");
+        texto.placeholder = "Digite a tarefa";
+        texto.classList.add("editInput");
+        tarefaSelecionada.appendChild(texto);
+
+        texto.addEventListener("keydown", (e) => {
+            const novoTexto = document.createElement("span");
+            novoTexto.classList.add("tarefaCriada")
+            if (e.key === 'Enter') {
+                if (texto.value.trim() != "") {
+                    novoTexto.textContent = texto.value;
+                    tarefaSelecionada.replaceChild(novoTexto, texto)
+                }
+            }
+        })
+    }
+
 })
 
 
