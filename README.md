@@ -1,4 +1,3 @@
-Perfeito! Seguindo exatamente o formato que você mostrou, aqui está o README da sua **Todo List**:
 
 ---
 
